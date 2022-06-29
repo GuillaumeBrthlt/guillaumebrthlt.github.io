@@ -1,0 +1,280 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/Roboto-Regular-webfont.eot');
+    src: url('fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body, input
+{
+  font-size: 14px;
+  font-family: arial,sans-serif;
+  color: #202124;
+  margin: 0;
+}
+
+header
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 60px;
+  padding: 6px;
+}
+
+.lienstxt
+{
+  display: flex;
+  flex-direction: row;
+  padding-right: 20px;
+  height: auto;
+}
+
+.lienstxt a
+{
+  text-decoration: none;
+  color: black;
+  font-family: Arial, sans serif;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+
+.liengmail, .lienimages
+{
+  padding-left: 15px;
+}
+
+.logoapp
+{
+  height: 2em;
+}
+
+.account
+{
+  background: rgb(26, 115, 232);
+  border-radius: 4px;
+  min-width: 96px;
+  text-align: center;
+  height: auto;
+  margin: 0 8px;
+  padding: 9px 23px;
+}
+
+.account a
+{
+  color: white;
+  text-decoration: none;
+  font-family: 'robotoregular';
+}
+
+.corps
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 251px);
+  min-height: 500px;
+}
+
+.imagegoogle
+{
+  min-height: 150px;
+  max-height: 290px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.imagegoogle img
+{
+  height 92px
+  margin-bottom: 10px;
+}
+
+.champsdetexte
+{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  width: 582px;
+  height: 44px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.champsdetexte:hover
+{
+box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+.loupe
+{
+  height: 35px;
+  width: 35px;
+  margin: 0 10px;
+}
+
+.saisie 
+{
+  border: none;
+  height: 34px;
+  margin: 2px;
+  width: 470px;
+}
+
+.saisie:focus
+{
+  outline: none;
+}
+
+.micro
+{
+  height: 35px;
+  width: 35px;
+  margin: 0 15px;
+}
+
+.boutons
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 582px;
+}
+
+.recherche 
+{
+  border: none;
+  border-radius: 4px;
+  height: 36px;
+  min-width: 54px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  }
+
+.recherche:hover
+{
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+}
+
+.recherche:focus
+{
+  border: 1px solid #4285f4;
+}
+
+.chance
+{
+  border: none;
+  border-radius: 4px;
+  height: 36px;
+  min-width: 54px;
+  margin: 11px 4px;
+  padding: 0 16px;
+}
+
+.chance:hover
+{
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+}
+
+.chance:focus
+{
+  border: 1px solid #4285f4;
+}
+
+
+footer
+{
+  position: absolute;
+  background-color: #F0F0F0;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #70757A;
+}
+
+.footer1
+{
+  height: 30px;
+  font-size: 15px;
+  border-bottom: 1px solid rgb(218, 220, 224);
+  display: flex;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer2
+{
+  height: 130px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: raw;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.line1
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;  
+
+}
+
+.line1 img
+{
+  margin-right: 15px;
+}
+
+.line2
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;  
+
+}
+
+.line3
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;  
+
+}
+
+footer a
+{
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #70757A;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+
+
+
